@@ -267,6 +267,7 @@ section.module.parallax {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    width: 100%;
 }
 
 section.module.parallax-1 {
