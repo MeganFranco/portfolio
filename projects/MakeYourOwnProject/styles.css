@@ -1,0 +1,220 @@
+ul.navbar {
+    list-style-type: none;
+    margin-top: 45px;
+    
+}
+
+div.navigation {
+    height: 50px;
+    background-color: cornflowerblue;
+    padding: 10px 0px;
+}
+
+
+li {
+    margin-top: 20px;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: large;
+    font-family: "Helvetica Neue";
+    font-weight: bolder;
+    color: navy;
+}
+
+li a.navlink{
+    display: block;
+    padding: 20px 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 14px 16px;
+    color: navy;
+
+}
+
+a.navlink:hover{
+    background-color: #FFE100;
+    margin-top: 40px;
+    margin-bottom: 20px; 
+    padding: 14px 16px;
+    border-radius: 5px;
+/*    color: #8EC2CB;*/
+   
+}
+
+.homePage {
+    margin: 0px auto;
+    width: inherit;
+    margin: none;
+}
+
+/*//////////HOME CONTENT//////////////////*/
+
+
+
+h2 {
+    text-align: center;
+    height: 90px;
+    margin: 0px;
+    padding: 20px;
+    font-family: Futura;
+    background-color: navy;
+    color: cornflowerblue;
+    width: inherit;
+
+}
+
+.homepage-content {
+    margin: 0 auto;
+    width: 85%;
+    height: 100%;
+    font-family: futura;
+    font-size: large;
+    padding-top: 45px;
+   
+}
+
+
+p a:hover {
+    background-color: none;
+}
+
+
+#startLocation {
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+}
+
+footer {
+    font-size: x-small;
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 65px;
+    color: white;
+    text-align: left;
+    margin-top: 10%
+}
+
+
+/*-----------------USER INFO PAGE--------------------------------------*/
+.input-page{
+/*    height: 100%;*/
+    background-image: url(https://wallpaperscraft.com/image/city_street_snow_winter_lane_black_white_28527_1920x1080.jpg);
+/*    background-size: 900px 900px;*/
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 700px;
+    padding-top: 80px;
+    
+ 
+}
+
+header {
+    font-size: x-large;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 45%;
+    padding: 45px;
+    padding-top: 10px; 
+    background-color: white;
+    border: 5px solid cornflowerblue;
+    margin-top: 30px;
+    margin-bottom: 550px;
+    border-radius: 5px;
+    font-family: futura;
+    font-size: medium;
+}
+
+h5 {
+   text-align: center; 
+}
+
+input {
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    
+}
+
+
+button {
+    margin-left: 40%;
+    border-radius: 5px;
+
+}
+
+/*-----------------RESULTS PAGE--------------------------------------*/
+.final{
+    font-family: futura;
+}
+.results-header{
+    
+}
+
+.results {
+    margin: 0 auto;
+    width: 45%;
+    padding-top: 40px;
+}
+
+.final-header {
+    color: #FFE100;
+    padding-bottom: 0px;
+}
+
+/*-----------------RESPONSIVE---------------------------------*/
+
+@media(max-width: 560px) {
+    div.navigation {
+        height: 40px;
+    }
+    
+    a.navlink:hover{
+        background-color: #FFE100;
+        margin-top: 55px;
+        margin-bottom: 20px;
+        padding: 10px 10px;
+        border-radius: 5px;
+     
+    }
+    
+    header {
+        font-size: medium;
+    }
+    
+    input{
+        width: 80%
+    }
+    
+    label {
+        font-size: small;
+    }
+    
+    .results{
+        width: 85%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
