@@ -22,6 +22,7 @@ section {
 
 .navigation {
     width: inherit;
+    border-radius: none;
     
     
 }
