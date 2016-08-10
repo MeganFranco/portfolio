@@ -57,10 +57,14 @@ li.navlink {
 li.navlink:hover{
     background-color: rgba(138, 136, 137, 0.7);
     border-radius: 2px;
-/*    text-decoration: none;*/
+    text-decoration: none;
     text-decoration: inherit;
     text-decoration-color: #252222;
     height:inherit;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 li:hover{
